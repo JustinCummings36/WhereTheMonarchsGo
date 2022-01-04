@@ -1,0 +1,103 @@
+
+
+
+   /*  css for images */
+
+   .img{
+   border-radius: 8px;
+   border:blue solid 2px;
+   margin:0px;
+   padding:0px;
+   }
+    /* images END */
+
+    /* css for navbar */
+   .nav {
+   height:55px;
+   text-decoration: underline;
+   }
+   a:hover{
+   color:blue;
+   }
+   .nav-link{
+   text-decoration: underline ;
+   margin-top: 10px;
+   }
+    /* navbar END */
+
+    /* css for main box */
+   .jumbotron{
+   width:60%;
+   height:auto;
+   margin:10px;
+   padding:10px;
+   color:blue;
+   }
+
+   .MainContainerPadding{
+   padding-bottom:20px;
+ }
+   /* Mainbox END */
+
+   /*  css for right box */
+   .SideBox{
+   width:100%;
+   height:auto;
+   font-size: 20px;
+   }
+    /* RightBox END */
+
+
+    /* botstrap border border-3 not working
+             class replacement
+   */
+   .border-thick{
+   border:blue solid 5px;
+   }
+
+  .circle{
+    border-radius:100px;
+  }
+
+
+   /* border replacement END */
+
+  /*  css mobil start*/
+  /*  Bring spacing to col divs in mobile */
+   @media only screen and (max-width: 730px) {
+   .Seperation{
+   padding:10px;
+   }
+}
+   /* css mobil END */
+
+
+
+
+.ColoredBlue{
+border:blue solid 5px;
+width:100%;
+margin-top:1px;
+}
+.BottomLeft{
+border:blue solid 5px;
+margin-top:10px;
+     width:100%;
+   height:auto;
+   font-size: 20px;
+}
+
+.roundImg{
+border-radius:20px;
+}
+
+div{
+margin-top:5px;}
+
+.footer{
+position:absolute;
+align:center;
+width:4000px;
+height:300px;
+background-color:gray;
+}
